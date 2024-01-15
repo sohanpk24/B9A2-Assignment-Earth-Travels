@@ -1,0 +1,35 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+                          /* nav-section */
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.nav-title {
+    display: flex;
+}
+.nav-title img{
+    width: 32px;
+    text-align: center;
+    margin-right: 6px;
+}
+
+.nav-title h2 span{
+    color: #FF5400;
+}
+
+.nav-manu a {
+    text-decoration: none;
+    color: #424247;
+}
